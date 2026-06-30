@@ -1,0 +1,9 @@
+[analysis]
+# 初始教学阈值；后续应按书中逻辑、行业和公司历史校准。
+receivables_to_revenue_warning = 0.30
+cash_profit_ratio_danger = 0.80
+
+[narrator]
+provider = "plain_text"
+# 未来模型密钥只通过环境变量读取，不提交到仓库。
+
